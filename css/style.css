@@ -1,0 +1,36 @@
+.slider {
+  width: 75%;
+  margin: auto;
+  position: relative;
+}
+.slider__items {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: nowrap;
+}
+.slider__items--item {
+  flex: 0 0 100%;
+  height: 300px;
+}
+.slider #one {
+  background-color: green;
+}
+.slider #two {
+  background-color: purple;
+}
+.slider #three {
+  background-color: orange;
+}
+.slider #four {
+  background-color: red;
+}
+.slider #five {
+  background-color: magenta;
+}
+.slider__nav {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
