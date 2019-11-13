@@ -1,7 +1,12 @@
+h1 {
+  text-align: center;
+}
+
 .slider {
   width: 75%;
   margin: auto;
   position: relative;
+  overflow: hidden;
 }
 .slider__items {
   white-space: nowrap;
@@ -12,6 +17,13 @@
 }
 .slider__items--item {
   flex: 0 0 100%;
+}
+.slider__nav {
+  text-align: center;
+}
+
+/* Custom Styling */
+.slider__items--item {
   height: 300px;
 }
 .slider #one {
@@ -29,8 +41,3 @@
 .slider #five {
   background-color: magenta;
 }
-.slider__nav {
-  text-align: center;
-}
-
-/*# sourceMappingURL=style.css.map */
