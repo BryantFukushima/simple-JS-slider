@@ -1,6 +1,6 @@
 # Pure JavaScript Slider
 
-## Simple Reusuable javascript slider.
+### Simple Reusuable javascript slider.
 
 HTML Structure:
 
@@ -14,7 +14,7 @@ HTML Structure:
         <div class='slider__items--item' id='four'>Item</div>
         <div class='slider__items--item' id='five'>Item</div>
     </div>
-    
+
     <div class='slider__nav'>
         <button class='slider__nav--prev'><</button>
         <button class='slider__nav--next'>></button>
